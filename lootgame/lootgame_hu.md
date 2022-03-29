@@ -1,5 +1,4 @@
-public:: true
-title:: lootgame_hu
+# Kísérlet demo
 
 - A kísérletről próbaverzió, avagy bemutató is készült, mely a következő linken elérhető: 
   [https://dudasbarnabas.herokuapp.com/demo/lootbox_game_demo](https://dudasbarnabas.herokuapp.com/demo/lootbox_game_demo)
