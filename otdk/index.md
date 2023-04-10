@@ -1,8 +1,24 @@
-# asd
-<li><a class="button" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
-<button type="button" class="btn btn-primary">Primary</button>
-<a class="btn btn-primary" href="#" role="button">Link</a>
-<button class="btn btn-primary" type="submit">Button</button>
-<input class="btn btn-primary" type="button" value="Input">
-<input class="btn btn-primary" type="submit" value="Submit">
-<input class="btn btn-primary" type="reset" value="Reset">
+# Országos Diákköri Konferencia
+
+**Köszönjük, hogy érdeklődnek!** A következő rövid leírás célja, hogy a lootbox használatot  mérő kísérletet röviden és szemléletesen bemutassuk.
+
+A <a href = "https://dudasbarnabas-demo.onrender.com/demo/lootbox_game_demo" target = "_blank">következő linken</a> lehetősége lesz a kísérlet főbb elemeinek megismerésére, az 5 perces demo verzió végigjátszására.
+
+## Hogyan érhető el a kísérlet?
+- A linkre való kattintással a böngésző új ablakot nyit meg, melyben a szerver teszteléshez/demonstrációhoz alkalmas új munkamentet generál. **Ez akár egy-két percet is igénybe vehet.**
+- A megnyíló felületen a **"Single-use links"** fül alatt található linkek bármelyikével a kísérlet kipróbálható.
+## A célkitűzésünk
+- A videojátékokban található véletlenszerű virtuális jutalmakat tartalmazó digitális tárolókat, a lootboxokat vizsgáló dolgozat része volt egy **szöveg-alapú kalandjátékot modellező kísérleti elrendezés**. Ebben a kísérletben az általunk kidolgozott, a valós mintára kidolgozott **lootboxokat vásárolhatnák meg a résztvevők**. A kísérletünk célja elsősorban az **okológiai validitás** erősítése.
+- A kísérlet működésének hatékony és szemléletes bemutatása érdekében készült próbaverzió vagy "demo" célja az ilyen és ehhez hasonló témákban zajló kutatások **módszertani lehetőségeinek felvázolása**, ami új perspektívát hozhat az internetes addikciók és videójátékok vizsgálatába.
+## A demo verzió
+- A bemutatóhoz a **játékot lerövidítettük**, de a szöveges és vizuális elemeket maradéktalanul megtartottuk. A kísérlet során megtévesztést alkalmazunk a résztvevők virtuális háromfős csoportban játszanak, két **algoritmus által vezérelt ellenfél** ellen, a valóság illúzióját mesterséges várakozási időkkel tartjuk fenn.
+- A három közjavak kör után a játékos sorban megismerheti a kísérlet során felkínált lootboxokat, annak érdekében, hogy ezeket probléma nélkül megvásárolhassa, érméinek száma az első lootbox prezentálása előtt kereken 1000-re vált.
+- A próbaverzióban több közjavak kör nem található, a **lootboxok bemutatásával a szemléltetés véget ér.** A játék végén az érmék száma tehát nem realisztikus, az **adatok nem kerülnek tárolásra**.
+## A lootboxok kutatásunkban
+- Mivel kutatásunkban lootboxként kezeltünk minden olyan digitális tárolót, mely véletlenszerű tartalommal rendelkezik, ezért célunk volt imitálni azt a nagyfokú változatosságot, ami a játékokban is megfigyelhető. A korábbi kutatásokban összegyűjtött típusok és motivációk alapján **5 lehetséges modellt** dolgoztunk ki. Ezen lootboxok meghatározott sorrendben vannak a játékosoknak felkínálva, a korábban elutasított lootboxok nem válnak újra elérhetővé a játék folyamán. A lootboxok randomizált jutalmakat tartalmaznak, és 3 lehetséges kimenettel rendelkeznek: a befektetés nem térül meg; a befektetés megtérül, de a jutalom nem haladja meg a befektetés mértékét; a jutalom meghaladja a befektetés mértékét. A 3 lehetőséget modelleztük mindegyik lootbox esetében, ezek egyenlő eséllyel következtek be. Minden lootbox 50 érmébe került, ez alól kivétel az utolsó, mely esetben választhat a játékos egy drágább, potenciálisan jövedelmezőbb és egy olcsóbb (50 érmébe kerülő) lootbox közül. A vizsgálati személyeknek **minden lootbox megvásárlására van lehetőségük**, amennyiben szükséges, a játék a tudta nélkül kompenzálja a játékost. A játékos által összegyűjtött loot az oldalsó sávba kerül a játék végéig. Az algoritmus által vezérelt ellenfelek véletlenszerűen vásárolnak lootboxokat azonos feltételek mellett.
+- ### A lootboxok típusai
+	- A lootboxok vásárlásának elsődleges motivációja **játékbeli előnyök megszerzése**. Az első lootboxban található jutalom egyértelmű előnyökhöz juttathatja a játékosokat. A ládában **30, 50 vagy 200 érme** értékű jutalmat találhatnak a játékosok.
+	- Számos esetben a lootboxokban található jutalmak nem juttatják közvetlenül előnyökhöz a játékosokat, de **felgyorsíthatják előrehaladásukat, megkönnyíthetik a játékmenetet**. Abban az esetben, ha a lootboxok tartalma nem rendelkezik egyértelmű pénzbeli értékkel a játékosok számára, akkor is jó befektetésnek tűnhet a megvásárlása. A közjavak játék elsősorban azt teszi lehetővé, hogy a körönkénti jutalmat befolyásoljuk. A második lootbox így a visszaosztott **jutalmak megszorzásával** (x1, x1,05 vagy x1,1), a többi játékos kooperációjától függően segíti a játékos előrehaladását.
+	- A lootboxok abban az esetben is vonzóak lehetnek a játékosok számára, ha semmilyen kompetitív előnyt nem nyújtanak. A **különböző kinézetek, a játékot és a játékos karakterét megszépítő lootok**, amik segíthetik a beilleszkedést, vagy épp a tömegből való kiemelkedést rendkívül népszerűek. A harmadik kategóriájú lootbox modellezéséhez tehát, a játékost azzal az információval látjuk el, hogy vásárlása és a lootbox tartalma is látható lesz a csoport többi tagja számára. Ebben az esetben is meghatároztunk kívánatos eredményt, ugyan a három lehetőség közül **egyik sem bírt értékkel a játékmenet szempontjából**.
+	- A másik **stratégiai előnyhöz** juttató lootbox körönként extra (az egyébként visszaosztott mennyiségen felüli) érméhez juttatja a szerencsés játékost. Ebben az estben a lehetséges **körönkénti jutalom** mértéke a loot függvényében változott (+5, +10 vagy +15 érme). Az előző modellel szemben a jutalom végső összege a hátralévő körök alapján egyértelműen kiszámolható (összesen 30, 60 vagy 90 érme), a játékosok viszont ezzel az információval nem rendelkeznek.
+	- Az elsőhöz hasonló módon hoztuk létre a játék végén lévő lootboxot, az egyetlen eltérés, hogy ebben az esetben a vizsgálati személy nem csak a lootbox megvásárlása vagy elutasítása, hanem egy drágább lootbox megvásárlása mellett is dönthet. Ennek tartalma és költsége arányaiban megegyezik az első verzióval (120, 200 vagy 800 érme jutalom).
